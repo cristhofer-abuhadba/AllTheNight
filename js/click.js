@@ -1,12 +1,3 @@
-//EJECUCION DE LA FUNCION//
-
-document.getElementById("Videojuegos").addEventListener("click", VideogamesBackground);
-document.getElementById("Inicio").addEventListener("click", InicioBackground);
-document.getElementById("Peliculas").addEventListener("click" , PeliculasBackground)
-document.getElementById("Ranking").addEventListener("click" , RankingBackground)
-document.getElementById("Tendencias").addEventListener("click" , TendenciasBackground)
-
-
 
 //FUNCIONES//
 function InicioBackground(){
@@ -21,6 +12,7 @@ function InicioBackground(){
     document.getElementById("Peliculas").classList.remove("selected");
     document.getElementById("Ranking").classList.remove("selected");
     document.getElementById("Tendencias").classList.remove("selected");
+    document.getElementById("Home").style.display= "block";
 }
 function VideogamesBackground(){
     document.getElementById("body").classList.add("body1");
@@ -35,6 +27,8 @@ function VideogamesBackground(){
     document.getElementById("Ranking").classList.remove("selected");
     document.getElementById("Tendencias").classList.remove("selected");
    
+    
+document.getElementById("Home").style.display= "none";
 }
 
 function PeliculasBackground(){
@@ -49,6 +43,9 @@ function PeliculasBackground(){
     document.getElementById("Tendencias").classList.remove("selected");
     document.getElementById("Ranking").classList.remove("selected");
     document.getElementById("Videojuegos").classList.remove("selected");
+    
+    document.getElementById("Home").style.display= "none";
+    
 }
 
 function TendenciasBackground(){
@@ -63,6 +60,10 @@ function TendenciasBackground(){
     document.getElementById("Ranking").classList.remove("selected");
     document.getElementById("Peliculas").classList.remove("selected");
     document.getElementById("Videojuegos").classList.remove("selected");
+
+    document.getElementById("Home").style.display= "none";
+
+    
 }
 
 function RankingBackground(){
@@ -77,4 +78,6 @@ function RankingBackground(){
     document.getElementById("Tendencias").classList.remove("selected");
     document.getElementById("Peliculas").classList.remove("selected");
     document.getElementById("Videojuegos").classList.remove("selected");
+
+    document.getElementById("Home").style.display= "none";
 }

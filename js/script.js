@@ -1,5 +1,13 @@
 //Ejecutar función en el evento click
 document.getElementById("btn_open").addEventListener("click", open_close_menu);
+document.getElementById("Videojuegos").addEventListener("click", VideogamesBackground);
+document.getElementById("Inicio").addEventListener("click", InicioBackground);
+document.getElementById("Peliculas").addEventListener("click" , PeliculasBackground)
+document.getElementById("Ranking").addEventListener("click" , RankingBackground)
+document.getElementById("Tendencias").addEventListener("click" , TendenciasBackground)
+
+
+
 
 //Declaramos variables
 var side_menu = document.getElementById("menu_side");
