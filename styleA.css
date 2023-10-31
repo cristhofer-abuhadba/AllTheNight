@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(red, blue);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 200% 200%;
+}
+
+.register {
+
+    width: 400px;
+    height: 690px;
+    background-color: rgb(57, 55, 55);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #ff0762;
+    color: white;
+}
+
+.register h3 {
+
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    animation: fadein 0.5s;
+}
+
+.controls {
+
+    width: 100%;
+    border: 1px solid #ff0762;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: azure;
+}
+
+.pos {
+    margin: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.datec {
+    display: flex;
+    text-align: center;
+    width: 40%;
+    border: 1px solid #ff0762;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: azure;
+}
+
+.icon {
+    text-align: center;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ff0762;
+    margin-bottom: 7px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: azure;
+}
+
+.icon:hover:nth-child(1) {
+
+    background-color: rgb(224, 219, 219);
+    color: rgb(74, 149, 248);
+    transition: 0.3s;
+}
+
+.icon:hover:nth-child(2) {
+
+    background-color: rgb(224, 219, 219);
+    color: rgb(248, 74, 97);
+    transition: 0.3s;
+}
+
+
+.button {
+    width: 100%;
+    height: 40px;
+    background: #ff0762;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 16px;
+
+}
+
+.button:hover {
+
+    background-color: black;
+    color: aliceblue;
+    transition: 0.7s;
+    animation: texto 1s;
+}
+
+.register p {
+
+    height: 40px;
+    text-align: center;
+
+
+}
+
+.register a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register h5 {
+
+    margin-bottom: 10px;
+}
+
+.titulo h3 {
+    text-shadow: -2px 3px rgb(76, 50, 224), 2px 3px rgb(0, 191, 255);
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+    font-size: 150px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
